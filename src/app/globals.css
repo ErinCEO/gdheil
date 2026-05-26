@@ -1,17 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #0a0b0d;
-  --color-ink-2: #111317;
-  --color-ink-3: #1a1d22;
-  --color-steel: #2a2f37;
-  --color-steel-2: #3a414b;
-  --color-concrete: #c9c7c1;
-  --color-concrete-2: #8b8a85;
+  --color-ink: #08090b;
+  --color-ink-2: #0f1117;
+  --color-ink-3: #161a23;
+  --color-steel: #232936;
+  --color-steel-2: #34405a;
+  --color-concrete: #c1c5cf;
+  --color-concrete-2: #818694;
   --color-bone: #ededea;
-  --color-safety: #ffb800;
-  --color-safety-hot: #ff7a00;
-  --color-rust: #b34a1e;
+
+  --color-heil: #0067a6;
+  --color-heil-bright: #1f8acc;
+  --color-heil-deep: #00355b;
+  --color-heil-ink: #021a2e;
+  --color-amber: #d9a85a;
+  --color-amber-deep: #b27b2a;
 
   --font-display: var(--font-display-src), "Anton", "Bebas Neue",
     ui-sans-serif, system-ui, sans-serif;
@@ -43,8 +47,8 @@ body {
 }
 
 ::selection {
-  background: var(--color-safety);
-  color: var(--color-ink);
+  background: var(--color-heil);
+  color: var(--color-bone);
 }
 
 .display {
@@ -90,17 +94,17 @@ body {
   background-image:
     radial-gradient(
       circle at 20% 10%,
-      rgba(255, 184, 0, 0.06),
-      transparent 40%
-    ),
-    radial-gradient(
-      circle at 80% 90%,
-      rgba(255, 122, 0, 0.05),
+      rgba(0, 103, 166, 0.12),
       transparent 45%
     ),
     radial-gradient(
+      circle at 80% 90%,
+      rgba(31, 138, 204, 0.08),
+      transparent 50%
+    ),
+    radial-gradient(
       circle at 50% 50%,
-      rgba(201, 199, 193, 0.04),
+      rgba(193, 197, 207, 0.04),
       transparent 60%
     );
 }

@@ -72,7 +72,7 @@ export default function SafetyPage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
             <Reveal>
               <div>
-                <p className="mono text-xs text-safety">Our Commitment</p>
+                <p className="mono text-xs text-heil">Our Commitment</p>
                 <h2 className="display text-5xl lg:text-6xl mt-4">
                   A culture, not a checklist.
                 </h2>
@@ -101,7 +101,7 @@ export default function SafetyPage() {
       <section className="relative py-24 lg:py-32 bg-ink-2">
         <div className="mx-auto max-w-[1400px] px-5 lg:px-10">
           <Reveal>
-            <p className="mono text-xs text-safety">Programs</p>
+            <p className="mono text-xs text-heil">Programs</p>
           </Reveal>
           <Reveal delay={0.05}>
             <h2 className="display text-5xl lg:text-6xl mt-4 max-w-3xl">
@@ -116,7 +116,7 @@ export default function SafetyPage() {
                 <StaggerItem key={p.title}>
                   <div className="bg-ink p-8 lg:p-10 h-full">
                     <div className="flex items-start justify-between">
-                      <Icon className="size-7 text-safety" />
+                      <Icon className="size-7 text-heil" />
                       <span className="mono text-xs text-concrete-2">
                         0{idx + 1}
                       </span>

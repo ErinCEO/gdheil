@@ -37,7 +37,7 @@ export default function ContactPage() {
                       key={s}
                       className="border-b border-white/5 py-2 flex items-center gap-2"
                     >
-                      <span className="size-1.5 bg-safety" />
+                      <span className="size-1.5 bg-heil" />
                       {s}
                     </li>
                   ))}
@@ -49,7 +49,7 @@ export default function ContactPage() {
           <div className="lg:col-span-7">
             <Reveal>
               <div className="border border-white/5 bg-ink-2 p-8 lg:p-12">
-                <p className="mono text-xs text-safety">Request a Bid</p>
+                <p className="mono text-xs text-heil">Request a Bid</p>
                 <h2 className="display text-4xl lg:text-5xl mt-3 mb-8">
                   Tell us about the project.
                 </h2>

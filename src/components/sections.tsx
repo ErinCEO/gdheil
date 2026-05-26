@@ -40,8 +40,8 @@ export function SectionHeader({
       className={`max-w-3xl ${align === "center" ? "mx-auto text-center" : ""}`}
     >
       <Reveal>
-        <p className="mono text-[11px] text-safety flex items-center gap-3">
-          <span className="inline-block h-px w-8 bg-safety" />
+        <p className="mono text-[11px] text-heil flex items-center gap-3">
+          <span className="inline-block h-px w-8 bg-heil" />
           {eyebrow}
           {kicker && (
             <span className="text-concrete-2 ml-4">· {kicker}</span>
@@ -98,7 +98,7 @@ export function StatsBar() {
             } ${idx === 3 ? "border-l border-white/5" : ""}`}
           >
             <div className="px-2 lg:px-8">
-              <p className="mono text-[10px] text-safety mb-5">
+              <p className="mono text-[10px] text-heil mb-5">
                 0{idx + 1} / 04
               </p>
               <p className="display text-5xl lg:text-7xl xl:text-8xl text-bone">
@@ -153,7 +153,7 @@ export function BentoServices() {
               <Magnetic strength={10}>
                 <Link
                   href="/services"
-                  className="inline-flex items-center gap-2 mono text-xs border border-white/15 px-5 py-3 hover:border-safety hover:text-safety transition-colors"
+                  className="inline-flex items-center gap-2 mono text-xs border border-white/15 px-5 py-3 hover:border-heil hover:text-heil transition-colors"
                 >
                   All services <ArrowUpRight className="size-4" />
                 </Link>
@@ -184,7 +184,7 @@ export function BentoServices() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-ink via-ink/60 to-transparent" />
                 <div className="relative h-full flex flex-col justify-between p-7 lg:p-10 min-h-[18rem]">
                   <div className="flex items-start justify-between">
-                    <Icon className="size-7 text-safety" />
+                    <Icon className="size-7 text-heil" />
                     <span className="mono text-[10px] text-concrete-2">
                       0{idx + 1} / 06
                     </span>
@@ -198,7 +198,7 @@ export function BentoServices() {
                     </p>
                   </div>
                 </div>
-                <span className="absolute inset-x-0 bottom-0 h-px bg-safety scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+                <span className="absolute inset-x-0 bottom-0 h-px bg-heil scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
               </Reveal>
             );
           })}
@@ -235,7 +235,7 @@ export function IndustriesSection() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
                 <div className="absolute top-5 left-5 flex items-center gap-2">
-                  <span className="size-1.5 bg-safety" />
+                  <span className="size-1.5 bg-heil" />
                   <span className="mono text-[10px] text-bone/70">
                     0{idx + 1} / 08
                   </span>
@@ -273,7 +273,7 @@ export function PinnedProjects() {
               <Magnetic strength={10}>
                 <Link
                   href="/projects"
-                  className="inline-flex items-center gap-2 mono text-xs border border-white/15 px-5 py-3 hover:border-safety hover:text-safety transition-colors"
+                  className="inline-flex items-center gap-2 mono text-xs border border-white/15 px-5 py-3 hover:border-heil hover:text-heil transition-colors"
                 >
                   All projects <ArrowUpRight className="size-4" />
                 </Link>
@@ -315,7 +315,7 @@ function PinnedProject({
     >
       <div className="lg:col-span-5 lg:sticky lg:top-32 self-start">
         <Reveal>
-          <p className="mono text-[11px] text-safety">
+          <p className="mono text-[11px] text-heil">
             0{index + 1} / 0{site.projects.length}
           </p>
         </Reveal>
@@ -351,7 +351,7 @@ function PinnedProject({
                 key={h}
                 className="flex items-start gap-3 text-sm text-bone/85 border-t border-white/5 pt-3"
               >
-                <span className="mt-2 size-1.5 bg-safety shrink-0" />
+                <span className="mt-2 size-1.5 bg-heil shrink-0" />
                 {h}
               </li>
             ))}
@@ -413,7 +413,7 @@ export function ProcessSection() {
           {site.process.map((p) => (
             <StaggerItem key={p.step}>
               <div className="border-r border-b border-white/10 p-8 lg:p-10 h-full bg-ink hover:bg-ink-3 transition-colors group">
-                <p className="display text-7xl lg:text-8xl text-safety/15 group-hover:text-safety/30 transition-colors">
+                <p className="display text-7xl lg:text-8xl text-heil/15 group-hover:text-heil/30 transition-colors">
                   {p.step}
                 </p>
                 <h3 className="display text-2xl lg:text-3xl mt-6">{p.title}</h3>
@@ -439,7 +439,7 @@ export function ValuesSection() {
           {site.values.map((v, idx) => (
             <StaggerItem key={v.name}>
               <div className="bg-ink-2 p-8 lg:p-10 h-full hover:bg-ink-3 transition-colors">
-                <p className="mono text-[11px] text-safety">0{idx + 1}</p>
+                <p className="mono text-[11px] text-heil">0{idx + 1}</p>
                 <h3 className="display text-3xl lg:text-4xl mt-6">{v.name}</h3>
                 <p className="mt-4 text-bone/70 text-sm">{v.blurb}</p>
               </div>
@@ -465,7 +465,7 @@ export function SafetyTeaser() {
             <Magnetic>
               <Link
                 href="/safety"
-                className="mt-8 inline-flex items-center gap-2 bg-safety text-ink px-6 py-3 font-semibold hover:bg-bone transition-colors"
+                className="mt-8 inline-flex items-center gap-2 bg-heil text-bone px-6 py-3 font-semibold hover:bg-heil-bright transition-colors"
               >
                 How we train <ArrowUpRight className="size-4" />
               </Link>
@@ -485,7 +485,7 @@ export function SafetyTeaser() {
               <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
               <div className="absolute inset-0 p-8 lg:p-12 flex flex-col justify-between">
                 <div className="flex items-start justify-between">
-                  <ShieldCheck className="size-10 text-safety" />
+                  <ShieldCheck className="size-10 text-heil" />
                   <span className="mono text-[10px] text-bone/70">
                     SAFETY · FIRST
                   </span>
@@ -533,7 +533,7 @@ export function TestimonialWall() {
               key={idx}
               className="shrink-0 w-[420px] lg:w-[520px] bg-ink border border-white/10 p-8 lg:p-10"
             >
-              <Quote className="size-7 text-safety" />
+              <Quote className="size-7 text-heil" />
               <blockquote className="mt-6 text-lg lg:text-xl text-bone/90 leading-relaxed">
                 &ldquo;{t.quote}&rdquo;
               </blockquote>
@@ -550,7 +550,7 @@ export function TestimonialWall() {
 
 export function CtaBand() {
   return (
-    <section className="relative py-28 lg:py-36 bg-safety text-ink overflow-hidden">
+    <section className="relative py-28 lg:py-36 bg-heil text-bone overflow-hidden">
       <div className="absolute inset-0 grid-noise opacity-25" aria-hidden />
       <div className="relative mx-auto max-w-[1500px] px-5 lg:px-10">
         <div className="grid lg:grid-cols-12 gap-10 items-end">
@@ -622,7 +622,7 @@ export function NapsSection() {
               <p className="mono text-[11px] text-concrete-2 mb-3">Phone</p>
               <a
                 href={`tel:${site.phoneE164}`}
-                className="display text-3xl text-safety hover:text-bone transition-colors"
+                className="display text-3xl text-heil hover:text-bone transition-colors"
               >
                 {site.phone}
               </a>

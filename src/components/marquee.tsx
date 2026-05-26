@@ -13,7 +13,7 @@ export function IndustryMarquee() {
             <span className="display text-2xl lg:text-4xl text-bone/85">
               {i.name}
             </span>
-            <span aria-hidden className="text-safety">✦</span>
+            <span aria-hidden className="text-heil">✦</span>
           </span>
         ))}
       </div>
@@ -26,7 +26,7 @@ export function IndustryMarquee() {
             <span className="mono text-sm lg:text-base text-bone/55">
               {s.title}
             </span>
-            <span aria-hidden className="text-safety/60">·</span>
+            <span aria-hidden className="text-heil/60">·</span>
           </span>
         ))}
       </div>

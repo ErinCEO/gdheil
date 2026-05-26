@@ -35,8 +35,8 @@ export function PageHero({
 
       <div className="relative mx-auto max-w-[1500px] px-5 lg:px-10">
         <Reveal>
-          <p className="mono text-[11px] text-safety flex items-center gap-3">
-            <span className="inline-block h-px w-10 bg-safety" />
+          <p className="mono text-[11px] text-heil flex items-center gap-3">
+            <span className="inline-block h-px w-10 bg-heil" />
             {eyebrow}
           </p>
         </Reveal>

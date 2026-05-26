@@ -9,7 +9,7 @@ export function SiteFooter() {
       <div className="relative mx-auto max-w-[1400px] px-5 lg:px-10 py-20">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5">
-            <p className="mono text-xs text-safety">{site.tagline}</p>
+            <p className="mono text-xs text-heil">{site.tagline}</p>
             <h2 className="display text-5xl lg:text-7xl mt-4">
               Build us into
               <br />
@@ -17,7 +17,7 @@ export function SiteFooter() {
             </h2>
             <Link
               href="/contact"
-              className="mt-8 inline-flex items-center gap-2 bg-safety text-ink px-6 py-3 font-semibold hover:bg-bone transition-colors"
+              className="mt-8 inline-flex items-center gap-2 bg-heil text-bone px-6 py-3 font-semibold hover:bg-heil-bright transition-colors"
             >
               Request a bid <ArrowUpRight className="size-4" />
             </Link>
@@ -32,7 +32,7 @@ export function SiteFooter() {
                   <li key={n.href}>
                     <Link
                       href={n.href}
-                      className="text-bone/80 hover:text-safety transition-colors"
+                      className="text-bone/80 hover:text-heil transition-colors"
                     >
                       {n.label}
                     </Link>
@@ -75,7 +75,7 @@ export function NapsBlock({ heading = "Visit / Call" }: { heading?: string }) {
       </p>
       <ul className="space-y-3 text-sm">
         <li className="flex gap-3">
-          <MapPin className="size-4 text-safety mt-0.5 shrink-0" />
+          <MapPin className="size-4 text-heil mt-0.5 shrink-0" />
           <span
             itemProp="address"
             itemScope
@@ -90,27 +90,27 @@ export function NapsBlock({ heading = "Visit / Call" }: { heading?: string }) {
           </span>
         </li>
         <li className="flex gap-3">
-          <Phone className="size-4 text-safety mt-0.5 shrink-0" />
+          <Phone className="size-4 text-heil mt-0.5 shrink-0" />
           <a
             href={`tel:${site.phoneE164}`}
             itemProp="telephone"
-            className="text-bone/90 hover:text-safety transition-colors"
+            className="text-bone/90 hover:text-heil transition-colors"
           >
             {site.phone}
           </a>
         </li>
         <li className="flex gap-3">
-          <Mail className="size-4 text-safety mt-0.5 shrink-0" />
+          <Mail className="size-4 text-heil mt-0.5 shrink-0" />
           <a
             href={`mailto:${site.email}`}
             itemProp="email"
-            className="text-bone/90 hover:text-safety transition-colors"
+            className="text-bone/90 hover:text-heil transition-colors"
           >
             {site.email}
           </a>
         </li>
         <li className="flex gap-3">
-          <Clock className="size-4 text-safety mt-0.5 shrink-0" />
+          <Clock className="size-4 text-heil mt-0.5 shrink-0" />
           <span className="text-bone/80">
             {site.hours.map((h) => (
               <span key={h.day} className="block">

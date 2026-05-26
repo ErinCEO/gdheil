@@ -30,7 +30,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-[1400px] px-5 lg:px-10 grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5">
             <Reveal>
-              <p className="mono text-xs text-safety">The Company</p>
+              <p className="mono text-xs text-heil">The Company</p>
             </Reveal>
             <Reveal delay={0.05}>
               <h2 className="display text-5xl lg:text-6xl mt-4">
@@ -79,7 +79,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-[1400px] px-5 lg:px-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           <Reveal>
             <div>
-              <p className="mono text-xs text-safety">Service Area</p>
+              <p className="mono text-xs text-heil">Service Area</p>
               <h2 className="display text-5xl lg:text-6xl mt-4">
                 Headquartered in Placentia. At home all over California.
               </h2>
@@ -92,7 +92,7 @@ export default function AboutPage() {
                   key={s}
                   className="flex items-center gap-3 py-2 border-b border-white/5"
                 >
-                  <span className="size-1.5 bg-safety" />
+                  <span className="size-1.5 bg-heil" />
                   {s}
                 </li>
               ))}

@@ -52,9 +52,9 @@ export function ContactForm() {
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
-        className="border border-safety/40 bg-safety/5 p-8 text-center"
+        className="border border-heil/40 bg-heil/5 p-8 text-center"
       >
-        <div className="inline-flex items-center justify-center size-12 bg-safety text-ink rounded-full mb-4">
+        <div className="inline-flex items-center justify-center size-12 bg-heil text-bone rounded-full mb-4">
           <Check className="size-6" />
         </div>
         <p className="display text-3xl">Email opened.</p>
@@ -73,13 +73,13 @@ export function ContactForm() {
           <label key={f.name} className="block">
             <span className="mono text-xs text-concrete-2 block mb-2">
               {f.label}
-              {f.required && <span className="text-safety"> *</span>}
+              {f.required && <span className="text-heil"> *</span>}
             </span>
             <input
               name={f.name}
               type={f.type}
               required={f.required}
-              className="w-full bg-ink border border-white/10 px-4 py-3 text-bone focus:border-safety focus:outline-none transition-colors"
+              className="w-full bg-ink border border-white/10 px-4 py-3 text-bone focus:border-heil focus:outline-none transition-colors"
             />
           </label>
         ))}
@@ -93,13 +93,13 @@ export function ContactForm() {
           {scopes.map((s) => (
             <label
               key={s}
-              className="flex items-center gap-3 border border-white/10 px-4 py-3 text-sm text-bone/85 hover:border-safety/60 cursor-pointer transition-colors has-[:checked]:border-safety has-[:checked]:bg-safety/5"
+              className="flex items-center gap-3 border border-white/10 px-4 py-3 text-sm text-bone/85 hover:border-heil/60 cursor-pointer transition-colors has-[:checked]:border-heil has-[:checked]:bg-heil/5"
             >
               <input
                 type="checkbox"
                 name="scope"
                 value={s}
-                className="size-4 accent-safety"
+                className="size-4 accent-heil"
               />
               {s}
             </label>
@@ -115,14 +115,14 @@ export function ContactForm() {
           name="details"
           rows={5}
           placeholder="Square footage, schedule, special conditions, drawings link…"
-          className="w-full bg-ink border border-white/10 px-4 py-3 text-bone focus:border-safety focus:outline-none transition-colors"
+          className="w-full bg-ink border border-white/10 px-4 py-3 text-bone focus:border-heil focus:outline-none transition-colors"
         />
       </label>
 
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-safety text-ink px-6 py-4 font-semibold hover:bg-bone transition-colors disabled:opacity-60"
+        className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-heil text-bone px-6 py-4 font-semibold hover:bg-heil-bright transition-colors disabled:opacity-60"
       >
         Send bid request
         <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform" />

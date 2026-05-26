@@ -62,7 +62,7 @@ export function SiteHeader() {
                 className="relative px-4 py-2 text-sm text-bone/80 hover:text-bone transition-colors group"
               >
                 <span>{item.label}</span>
-                <span className="absolute left-3 right-3 -bottom-px h-px bg-safety scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+                <span className="absolute left-3 right-3 -bottom-px h-px bg-heil scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
               </Link>
             ))}
           </nav>
@@ -70,14 +70,14 @@ export function SiteHeader() {
           <div className="flex items-center gap-2">
             <a
               href={`tel:${site.phoneE164}`}
-              className="hidden md:inline-flex items-center gap-2 px-4 py-2 text-sm mono text-bone/90 hover:text-safety transition-colors"
+              className="hidden md:inline-flex items-center gap-2 px-4 py-2 text-sm mono text-bone/90 hover:text-heil transition-colors"
             >
               <Phone className="size-4" />
               {site.phone}
             </a>
             <Link
               href="/contact"
-              className="hidden md:inline-flex items-center gap-2 bg-safety text-ink px-5 py-2.5 text-sm font-semibold hover:bg-bone transition-colors"
+              className="hidden md:inline-flex items-center gap-2 bg-heil text-bone px-5 py-2.5 text-sm font-semibold hover:bg-heil-bright transition-colors"
             >
               Request Bid
             </Link>
@@ -148,7 +148,7 @@ export function SiteHeader() {
               >
                 <a
                   href={`tel:${site.phoneE164}`}
-                  className="mono text-safety text-lg"
+                  className="mono text-heil text-lg"
                 >
                   {site.phone}
                 </a>
@@ -158,7 +158,7 @@ export function SiteHeader() {
                 <Link
                   href="/contact"
                   onClick={() => setOpen(false)}
-                  className="mt-4 inline-flex justify-center items-center bg-safety text-ink px-5 py-3 font-semibold"
+                  className="mt-4 inline-flex justify-center items-center bg-heil text-bone px-5 py-3 font-semibold"
                 >
                   Request Bid
                 </Link>

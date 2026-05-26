@@ -57,7 +57,7 @@ export function Hero() {
 
       <div className="absolute inset-x-0 top-24 lg:top-28 px-5 lg:px-10 flex items-start justify-between text-bone/60 mono text-[10px]">
         <div className="flex items-center gap-3">
-          <span className="size-1.5 bg-safety animate-pulse" />
+          <span className="size-1.5 bg-heil animate-pulse" />
           <span>LIC. CALIF · DEMOLITION · EST. {site.founded}</span>
         </div>
         <div className="hidden md:flex items-center gap-6">
@@ -71,8 +71,8 @@ export function Hero() {
         style={reduce ? undefined : { y: textY }}
         className="relative mx-auto w-full max-w-[1500px] px-5 lg:px-10 pb-20 lg:pb-28"
       >
-        <p className="mono text-[11px] text-safety mb-6 flex items-center gap-3">
-          <span className="inline-block h-px w-10 bg-safety" />
+        <p className="mono text-[11px] text-heil mb-6 flex items-center gap-3">
+          <span className="inline-block h-px w-10 bg-heil" />
           California Demolition Contractor
         </p>
 
@@ -83,7 +83,7 @@ export function Hero() {
           <span className="block">
             <WordReveal text="to make a" delay={0.08} />
           </span>
-          <span className="block text-safety italic">
+          <span className="block text-heil italic">
             <WordReveal text="difference." delay={0.16} />
           </span>
         </h1>
@@ -103,7 +103,7 @@ export function Hero() {
             <Magnetic>
               <Link
                 href="/contact"
-                className="group inline-flex items-center justify-center gap-3 bg-safety text-ink px-7 py-4 font-semibold hover:bg-bone transition-colors"
+                className="group inline-flex items-center justify-center gap-3 bg-heil text-bone px-7 py-4 font-semibold hover:bg-heil-bright transition-colors"
               >
                 Request a bid
                 <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform" />
@@ -112,7 +112,7 @@ export function Hero() {
             <Magnetic strength={10}>
               <Link
                 href="/projects"
-                className="inline-flex items-center justify-center gap-3 border border-bone/20 text-bone px-7 py-4 hover:border-safety hover:text-safety transition-colors"
+                className="inline-flex items-center justify-center gap-3 border border-bone/20 text-bone px-7 py-4 hover:border-heil hover:text-heil transition-colors"
               >
                 See the work
               </Link>
