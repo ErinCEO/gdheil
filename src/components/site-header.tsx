@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, Phone, X } from "lucide-react";
@@ -38,15 +39,19 @@ export function SiteHeader() {
             className="group flex items-center gap-3"
             aria-label={`${site.name} — Home`}
           >
-            <Logo />
-            <div className="flex flex-col leading-none">
-              <span className="display text-bone text-xl lg:text-2xl">
-                GD Heil
-              </span>
-              <span className="mono text-[10px] text-concrete-2 mt-1">
-                Demolition · Est. {site.founded}
-              </span>
+            <div className="bg-bone p-1.5 lg:p-2">
+              <Image
+                src={site.logo}
+                alt={`${site.name} logo`}
+                width={120}
+                height={64}
+                className="h-7 lg:h-9 w-auto"
+                priority
+              />
             </div>
+            <span className="mono text-[10px] text-concrete-2 hidden md:inline">
+              Est. {site.founded} · CA
+            </span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -166,28 +171,3 @@ export function SiteHeader() {
   );
 }
 
-function Logo() {
-  return (
-    <svg
-      width="40"
-      height="40"
-      viewBox="0 0 40 40"
-      className="text-safety"
-      aria-hidden
-    >
-      <path
-        d="M4 32 L20 6 L36 32 Z"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2.4"
-      />
-      <path d="M4 32 L36 32" stroke="currentColor" strokeWidth="2.4" />
-      <path
-        d="M14 24 L20 14 L26 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2.4"
-      />
-    </svg>
-  );
-}

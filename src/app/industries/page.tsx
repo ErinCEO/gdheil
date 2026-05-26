@@ -19,8 +19,8 @@ export default function IndustriesPage() {
         eyebrow="Markets We Serve"
         title="Eight industries. One disciplined approach."
         blurb="Sector experience matters most when the building stays open during the work. From live hospital corridors to active casino floors, we sequence demolition around your operation."
-        image="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=2400&q=85&auto=format&fit=crop"
-        alt="Hospital corridor interior"
+        image="/site/projects/1100-wilshire.jpg"
+        alt="1100 Wilshire high-rise tower"
       />
       <IndustriesSection />
       <NapsSection />

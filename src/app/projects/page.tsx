@@ -21,8 +21,8 @@ export default function ProjectsPage() {
         eyebrow="Selected Work"
         title="Landmarks we helped take apart."
         blurb="A short list from hundreds of projects. The full portfolio includes hospitals, office towers, distribution facilities, retail centers, and venues across California."
-        image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=2400&q=85&auto=format&fit=crop"
-        alt="High-rise construction view"
+        image="/site/people/about-photo.jpg"
+        alt="GD Heil crew demolishing a downtown Los Angeles structure"
       />
       <PinnedProjects />
       <TestimonialWall />

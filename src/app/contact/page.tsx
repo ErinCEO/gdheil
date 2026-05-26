@@ -18,8 +18,8 @@ export default function ContactPage() {
         eyebrow="Contact · Estimating"
         title="Send us your scope. We'll send back a number."
         blurb="The fastest way to a bid is a set of drawings and a schedule. Reach the estimating desk by phone, email, or the form below."
-        image="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=2400&q=85&auto=format&fit=crop"
-        alt="Cityscape at dusk"
+        image="/site/people/fleet.jpeg"
+        alt="GD Heil service fleet at the Placentia yard"
       />
 
       <section className="relative py-24 lg:py-32">

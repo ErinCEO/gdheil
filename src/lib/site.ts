@@ -30,61 +30,54 @@ export const site = {
     "San Francisco Bay Area",
   ],
   hero: {
-    image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=2400&q=85&auto=format&fit=crop",
-    alt: "Construction site at dusk",
+    image: "/site/people/about-photo.jpg",
+    alt: "GD Heil crew on a downtown Los Angeles demolition platform with the city skyline behind",
+    video: "/site/video/hollywood-bowl.mp4",
   },
+  logo: "/site/logo/gdh-logo.png",
   industries: [
     {
       name: "Healthcare",
       blurb:
         "Sensitive infection-control demolition for hospitals and medical campuses.",
-      image:
-        "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/people/about-photo.jpg",
     },
     {
       name: "Hospitality",
       blurb: "Phased strip-outs that keep hotels and resorts operational.",
-      image:
-        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/projects/marriott-desert-springs.jpg",
     },
     {
       name: "Aerospace",
       blurb:
         "Precision removals inside active production and clean environments.",
-      image:
-        "https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/img-0002.jpg",
     },
     {
       name: "Industrial",
       blurb:
         "Heavy structural demolition, foundations, and equipment removals.",
-      image:
-        "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/main.jpg",
     },
     {
       name: "Commercial",
       blurb: "Office, mixed-use, and high-rise tenant improvement support.",
-      image:
-        "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/projects/1100-wilshire.jpg",
     },
     {
       name: "Retail",
       blurb: "Fast-turn store refresh and white-box delivery.",
-      image:
-        "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/img-0717.jpg",
     },
     {
       name: "Distribution",
       blurb: "Warehouse, cold-storage, and logistics facility conversions.",
-      image:
-        "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/img-6549.jpg",
     },
     {
       name: "Gaming",
       blurb: "Live-environment work in casinos and entertainment venues.",
-      image:
-        "https://images.unsplash.com/photo-1572215126824-e0c5b7d5fbc6?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/projects/hollywood-bowl.jpg",
     },
   ],
   services: [
@@ -92,45 +85,39 @@ export const site = {
       title: "Soft Demolition",
       blurb:
         "Interior strip-outs, selective dismantling, and finish removal that prep a building for what comes next.",
-      image:
-        "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/people/about-photo.jpg",
       span: "large",
     },
     {
       title: "Hard Demolition",
       blurb:
         "Concrete, masonry, and structural demolition with engineered sequencing.",
-      image:
-        "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/main.jpg",
       span: "tall",
     },
     {
       title: "Interior Strip-Outs",
       blurb:
         "Full white-box delivery for tenant improvements and gut renovations.",
-      image:
-        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/img-0833.jpg",
       span: "wide",
     },
     {
       title: "Saw Cutting",
       blurb: "Wall, slab, and core sawing to tight tolerances.",
-      image:
-        "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/img-4305.jpg",
       span: "default",
     },
     {
       title: "Breaking & Removal",
       blurb: "Mechanical and hand breaking, debris haul-off, recycling.",
-      image:
-        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/img-6549.jpg",
       span: "default",
     },
     {
       title: "Concrete & Asphalt",
       blurb: "Pavement removal, foundations, substructure with high recovery.",
-      image:
-        "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1600&q=80&auto=format&fit=crop",
+      image: "/site/gallery/img-1454.jpg",
       span: "default",
     },
   ],
@@ -209,10 +196,11 @@ export const site = {
       partner: "City of Los Angeles / LA Phil",
       scope: "Selective demolition of acoustic shell and stage structure inside an active landmark venue.",
       images: [
-        "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=2000&q=85&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=2000&q=85&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=2000&q=85&auto=format&fit=crop",
+        "/site/projects/hollywood-bowl.jpg",
+        "/site/people/about-photo.jpg",
+        "/site/gallery/main.jpg",
       ],
+      video: "/site/video/hollywood-bowl.mp4",
       highlights: [
         "Selective demolition of acoustic shell and stage structure",
         "Coordinated work inside an active landmark venue",
@@ -230,10 +218,11 @@ export const site = {
       partner: "Confidential developer",
       scope: "Phased high-rise demolition above an occupied building.",
       images: [
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=2000&q=85&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=2000&q=85&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=2000&q=85&auto=format&fit=crop",
+        "/site/projects/1100-wilshire.jpg",
+        "/site/people/about-photo.jpg",
+        "/site/gallery/img-0838.jpg",
       ],
+      video: "/site/video/helicopter.mp4",
       highlights: [
         "Phased high-rise demolition above an occupied building",
         "MEP demising and slab penetrations",
@@ -251,10 +240,11 @@ export const site = {
       partner: "Marriott Hotels & Resorts",
       scope: "Sequenced demolition inside a live destination resort.",
       images: [
-        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=2000&q=85&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=2000&q=85&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=2000&q=85&auto=format&fit=crop",
+        "/site/projects/marriott-desert-springs.jpg",
+        "/site/gallery/img-1493.jpg",
+        "/site/gallery/img-0836.jpg",
       ],
+      video: "/site/video/marriott.mp4",
       highlights: [
         "Sequenced around guest occupancy",
         "Saw cutting and core drilling for new openings",
@@ -295,6 +285,36 @@ export const site = {
     "Cedars-Sinai",
     "Westfield",
   ],
+  pageHeroes: {
+    about: "/site/people/workers.jpeg",
+    services: "/site/gallery/main.jpg",
+    industries: "/site/projects/1100-wilshire.jpg",
+    projects: "/site/people/about-photo.jpg",
+    safety: "/site/people/workers.jpeg",
+    contact: "/site/people/fleet.jpeg",
+  },
+  gallery: [
+    "/site/gallery/main.jpg",
+    "/site/people/about-photo.jpg",
+    "/site/people/workers.jpeg",
+    "/site/people/fleet.jpeg",
+    "/site/gallery/img-1454.jpg",
+    "/site/gallery/img-4305.jpg",
+    "/site/gallery/img-6549.jpg",
+    "/site/gallery/img-0002.jpg",
+    "/site/gallery/img-0717.jpg",
+    "/site/gallery/img-0833.jpg",
+    "/site/gallery/img-0836.jpg",
+    "/site/gallery/img-0838.jpg",
+    "/site/gallery/img-0840.jpg",
+    "/site/gallery/img-0842.jpg",
+    "/site/gallery/img-1491.jpg",
+    "/site/gallery/img-1493.jpg",
+    "/site/gallery/img-4386.jpg",
+    "/site/gallery/img-6590.jpg",
+    "/site/gallery/img-9451.jpg",
+  ],
+  blueprint: "/site/projects/architect-bw.jpg",
   nav: [
     { label: "About", href: "/about" },
     { label: "Services", href: "/services" },

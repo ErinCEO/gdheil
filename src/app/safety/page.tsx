@@ -63,8 +63,8 @@ export default function SafetyPage() {
         eyebrow="Safety & Training"
         title="Zero compromises on the way home."
         blurb="Safety is the top priority on every jobsite, every shift, every day. It is not a poster on the trailer — it's the way we plan, sequence, and run the work."
-        image="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=2400&q=85&auto=format&fit=crop"
-        alt="Safety culture on a jobsite"
+        image="/site/people/workers.jpeg"
+        alt="The GD Heil crew, supported by an in-house safety program"
       />
 
       <section className="relative py-24 lg:py-32">

@@ -476,8 +476,8 @@ export function SafetyTeaser() {
           <Reveal y={40}>
             <div className="relative aspect-[4/5] overflow-hidden border border-white/5">
               <Image
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&q=85&auto=format&fit=crop"
-                alt="Safety training and PPE"
+                src="/site/people/about-photo.jpg"
+                alt="GD Heil crew working a downtown Los Angeles demolition platform"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
