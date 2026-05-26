@@ -19,9 +19,11 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About GD Heil"
+        eyebrow="About GD Heil · Since 1992"
         title="Three decades of careful, sequenced demolition."
         blurb="A California corporation founded in 1992. A repeat-client business built on integrity, excellence, service, safety, leadership, and environmental responsibility."
+        image="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=2400&q=85&auto=format&fit=crop"
+        alt="Industrial structure"
       />
 
       <section className="relative py-24 lg:py-32">

@@ -3,6 +3,7 @@ import { Anton, Inter, JetBrains_Mono } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { LocalBusinessSchema } from "@/components/local-business-schema";
+import { ScrollProgress } from "@/components/motion";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -76,6 +77,7 @@ export default function RootLayout({
     >
       <body className="min-h-screen flex flex-col bg-ink text-bone">
         <LocalBusinessSchema />
+        <ScrollProgress />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
